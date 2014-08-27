@@ -1,0 +1,216 @@
+.js-vote-rating{
+	cursor:pointer;
+}
+.vs-vote {
+    position:absolute;
+    top:0;
+    left:0;
+    width:380px;
+    z-index:100;
+}
+.vs_wrap {
+    overflow: hidden;
+    zoom: 1;
+    padding: 10px 15px 10px 15px;
+    background: white;
+    border-bottom: 1px solid #EEE;
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.20);
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.20);
+    border-radius: 10px;
+}
+.vs-vote .vs_header {
+    padding: 2px 0 8px 5px;
+    margin: 0 0 10px 0;
+    line-height:20px;
+    font:12px/20px Verdana, sans-serif;
+    color:#505050;
+    border-bottom: 1px dotted #DCE1E6;
+}
+.vs-vote .vs_header em {
+    font:18px/20px Verdana, sans-serif;
+}
+.vs-vote .vs_header em.red {
+    color: #DA4242;
+}
+.vs-vote .vs_header em.green {
+    color: #5FA459;
+}
+.vs-vote .vs_header em.none {
+    color: #628FA5;
+}
+
+
+.vs-vote .vs_users_table_holder {
+    padding: 0 30px;
+    position:relative;
+    padding-bottom:15px;
+}
+.vs-vote .vs_users_table {
+    width:100%;
+    border-collapse:collapse;
+}
+.vs-vote .vs_users_table td {
+    vertical-align:top;
+    width:50%;
+}
+.vs-vote .vs_plus_users {
+    padding-right:10px;
+}
+.vs-vote .vs_minus_users {
+    border-left:1px solid #c1c1c1;
+    padding-left:10px;
+}
+.vs-vote .vs_users_table h4 {
+    margin: 0 0 8px;
+    font-size:12px;
+    font-weight:bold;
+    color:#505050;
+}
+.vs-vote .vs_users li {
+    list-style-type:none;
+    font:11px/13px Verdana, sans-serif;
+    margin-bottom:0.5em;
+}
+.vs-vote .vs_users a {
+    font:11px Verdana, sans-serif;
+    color:#333300;
+}
+.vs-vote .vs_users span {
+    font:11px Verdana, sans-serif;
+    color:#666666;
+}
+.vs-vote .vs_user_prev, .vs-vote .vs_user_next {
+    display:block;
+    height:100%;
+    width:21px;
+    position:absolute;
+    top:0;
+}
+.vs-vote .vs_user_prev {
+    left:0;
+    background: url(../img/prev.png) no-repeat center center;
+    background-color: rgba(192, 192, 192, 0.3);
+}
+.vs-vote .vs_user_prev:hover {
+    background-color: rgba(192, 192, 192, 0.6);
+}
+.vs-vote .vs_user_next {
+    right:0;
+    background: url(../img/next.png) no-repeat center center;
+    background-color: rgba(192, 192, 192, 0.3);
+}
+.vs-vote .vs_user_next:hover {
+    background-color: rgba(192, 192, 192, 0.6);
+}
+.vs-vote .vs_arrow_bubble_bottom {
+    background: url(../img/arrow_bottom.png) no-repeat;
+    width: 29px;
+    height: 14px;
+    margin: -1px 0 0 14px;
+}
+.vs-vote .vs_arrow_bubble_top {
+    background: url(../img/arrow_top.png) no-repeat;
+    width: 29px;
+    height: 14px;
+    position: relative;
+    top: 0px;
+    left: 14px;
+}
+.vs-vote .vs_paginator {
+    text-align:center;
+    position:relative;
+    margin:0 auto;
+}
+.vs-vote .vs_pag_inner_1 {
+    float: left;
+    left: 50%;
+    position: relative;
+    text-align: center;     
+}
+.vs-vote .vs_pag_inner_2 {
+    padding:14px 44px 10px;
+    position: relative;
+    left: -50%;
+    float: left;
+    margin: 0;
+}
+.vs-vote .vs_paginator a {
+    display:block;
+    float: left;
+    background:url(../img/page.gif) no-repeat center center ;
+    width:18px;
+    height:18px;
+}
+.vs-vote .vs_paginator .active {
+    background:url(../img/page_a.gif) no-repeat center center;
+}
+.vs-vote .vs_close {
+    position: absolute;
+    margin: -4px 0 0 0;
+    right: 7px;
+}
+.vs-vote .vs_close a {
+    background: url(../img/close.png) no-repeat;
+    display: block;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+}
+.vs-vote .vs_close a:hover {
+    background-position: 0 bottom;
+}
+
+.sublepro_header_vs .vs_close {
+    left:398px;
+}
+
+.vs-vote .vs_sublepro_header_table_holder{
+    padding:40px 15px 13px;
+}
+.vs-vote .vs_sublepro_header_table td {
+    width:50%;
+    font-size:12px;
+    color:#505050;
+    vertical-align:top;
+}
+.vs-vote .vs_sublepro_header_table td {
+    width:50%;
+    font-size:12px;
+    color:#505050;
+    vertical-align:top;
+}
+.vs-vote .vs_sublepro_header_table label {
+    font-weight:normal;
+    line-height:14px;
+}
+.vs-vote .vs_sublepro_header_table input {
+    vertical-align:middle;
+}
+.vs-vote .vs_sublepro_desc {
+    padding:18px 15px 15px;
+    font-size:12px;
+    color:#505050;
+}
+
+.infobox-topic{display:none;}
+
+
+.user_count_st {
+    font-size: 8px;
+    position: relative;
+    top: -5px;
+    color: #999;
+}
+
+.abstain_result {
+    color: #628FA5;
+    font-size: 10px;
+}
+
+.profile .vote-profile .vote-topic .vote-item.vote-count {
+cursor: pointer;
+} 
+
+.comment .comment-info li.vote .vote-count {
+cursor: pointer;
+} 

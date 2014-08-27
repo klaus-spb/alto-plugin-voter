@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+	<name>
+		<lang name="default">Плагин Voter - кто как проголосовал</lang>
+	</name>
+	<author>
+		<lang name="default">Klaus and s4people</lang>
+		<lang name="russian">Klaus and s4people</lang>
+	</author>
+	<homepage>http://altocms.ru</homepage>
+	<version>1.0.0</version>
+	<dirname>voter</dirname>
+    <requires>
+        <alto>
+             <version>1.0.0</version>
+        </alto>
+    </requires>
+	<description>
+		<lang name="default">Позволяет просматривать кто как проголосовал</lang>
+	</description>
+</plugin>

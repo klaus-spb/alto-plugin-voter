@@ -9,7 +9,7 @@
 
 $config = array();
 $config['show_votes'] = true; 			// отображать кто как проголосовал за комментарий/статью/блог/пользователя
-$config['show_question_votes'] = true; 	// отображать кто как проголосовал 
+$config['show_question_votes'] = true; 	// отображать кто как проголосовал в опросе
 
 return $config;
 ?>

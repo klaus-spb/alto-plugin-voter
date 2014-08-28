@@ -1,6 +1,9 @@
 .js-vote-rating{
 	cursor:pointer;
 }
+ul.js-poll-result li{
+	cursor:pointer;
+}
 .vs-vote {
     position:absolute;
     top:0;
@@ -206,11 +209,3 @@
     color: #628FA5;
     font-size: 10px;
 }
-
-.profile .vote-profile .vote-topic .vote-item.vote-count {
-cursor: pointer;
-} 
-
-.comment .comment-info li.vote .vote-count {
-cursor: pointer;
-} 

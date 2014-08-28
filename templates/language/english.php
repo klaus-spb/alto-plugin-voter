@@ -15,6 +15,7 @@ return array(
 	'comment_rating' => 'Comment rating at this moment',
 	'user_rating' => 'User rating at this moment',
 	'blog_rating' => 'Blog rating at this moment',
+	'vote_for_this' => 'Votes for this option',
 );
 
 ?>

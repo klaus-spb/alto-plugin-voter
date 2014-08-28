@@ -23,9 +23,18 @@ class PluginVoter extends Plugin {
     );
 
 	// Объявление переопределений (модули, мапперы и сущности)
-	protected $aInherits=array(
-	  'action' => array('ActionAjax')	   
-    );
+	protected $aInherits
+        = array(
+            'action' => array(
+				'ActionAjax'
+			),
+			'module' => array(
+                'ModuleTopic',
+            ),
+            'mapper' => array(
+                'ModuleTopic_MapperTopic',
+            ),
+        );
 
 	// Активация плагина
 	public function Activate() { 
